@@ -17,10 +17,10 @@ public class Prevent extends JavaPlugin{
 			p.sendMessage(ChatColor.GREEN + "FullName: " + getDescription().getFullName() + " ");
 			p.sendMessage(ChatColor.GREEN + "Description: " + getDescription().getDescription() + " ");
 			p.sendMessage("Commands: /prevent");
-
+                        p.sendMessage("Have fun!");
 			// Errors? Contact me!
-			// Use the spigot as a external jar!
-			// Made from eclipse.
+			// Make sure to read the readme.txt file for steps on what to do.
+		        
 	    }
 		return false;
 	}
